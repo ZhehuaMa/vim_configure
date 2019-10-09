@@ -162,10 +162,13 @@ nnoremap <C-L> :nohl<CR><C-L>
 " Highlight current line
 set cursorline
 
+" Set color scheme firstly, then set cusor line highlight
+colorscheme desert
+
 " Adjust highlight color
 " 'cterm' means the original vim highlight pattern. Setting it to NONE will
 " use your own pattern.
-highlight CursorLine cterm=NONE ctermbg=black guibg=NONE guifg=NONE
+highlight CursorLine cterm=NONE ctermbg=DarkGrey guibg=NONE guifg=NONE
 
 "------------------------------------------------------------
 " Set encodings
