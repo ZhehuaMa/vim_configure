@@ -185,3 +185,9 @@ source ~/.ycmd_server.vim
 "------------------------------------------------------------
 " Set brackets pairing
 source ~/.brackets.vim
+
+
+"------------------------------------------------------------
+" Search highlight content
+vnoremap // y/<C-R>"<CR>
+vnoremap ?? y?<C-R>"<CR>
