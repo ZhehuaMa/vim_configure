@@ -194,3 +194,10 @@ source ~/.brackets.vim
 " Search highlight content
 vnoremap // y/<C-R>"<CR>
 vnoremap ?? y?<C-R>"<CR>
+
+"------------------------------------------------------------
+" Enclose highlight content with parentheses, square brackets or braces
+vnoremap [ s[<C-r>-]
+vnoremap ( s(<C-r>-)<ESC>
+vnoremap { s{<C-r>-}<ESC>
+vnoremap < s<<C-r>-><ESC>
