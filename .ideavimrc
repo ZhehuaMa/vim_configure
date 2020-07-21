@@ -162,13 +162,10 @@ nnoremap <C-L> :nohl<CR><C-L>
 " Highlight current line
 set cursorline
 
-" Set color scheme firstly, then set cusor line highlight
-colorscheme desert
-
 " Adjust highlight color
 " 'cterm' means the original vim highlight pattern. Setting it to NONE will
 " use your own pattern.
-highlight CursorLine cterm=NONE ctermbg=DarkGrey guibg=NONE guifg=NONE
+highlight CursorLine cterm=NONE ctermbg=black guibg=NONE guifg=NONE
 
 "------------------------------------------------------------
 " Set encodings
@@ -178,22 +175,12 @@ set fileencoding=utf-8
 set termencoding=utf-8
 
 "------------------------------------------------------------
-" Set vundle
-source ~/.vundle_script.vim
-
-"------------------------------------------------------------
-" Set ycmd_server.vim
-source ~/.ycmd_server.vim
-
-"------------------------------------------------------------
-" Set brackets pairing
-source ~/.brackets.vim
-
-
-"------------------------------------------------------------
 " Search highlight content
 vnoremap // y/<C-R>"<CR>
 vnoremap ?? y?<C-R>"<CR>
+
+set incsearch
+set ideajoin
 
 "------------------------------------------------------------
 " Enclose highlight content with parentheses, square brackets or braces
