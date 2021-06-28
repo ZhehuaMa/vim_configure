@@ -176,11 +176,11 @@ set termencoding=utf-8
 
 "------------------------------------------------------------
 " Set vundle
-source ~/.vundle_script.vim
+" source ~/.vundle_script.vim
 
 "------------------------------------------------------------
 " Set ycmd_server.vim
-source ~/.ycmd_server.vim
+" source ~/.ycmd_server.vim
 
 "------------------------------------------------------------
 " Set brackets pairing
