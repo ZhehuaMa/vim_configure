@@ -162,6 +162,9 @@ nnoremap <C-L> :nohl<CR><C-L>
 " Highlight current line
 set cursorline
 
+" Highlight current column, added on Nov 21, 2023
+set cursorcolumn
+
 " Set color scheme firstly, then set cusor line highlight
 colorscheme desert
 
