@@ -204,3 +204,7 @@ vnoremap [ s[<C-r>-]<ESC>
 vnoremap ( s(<C-r>-)<ESC>
 vnoremap { s{<C-r>-}<ESC>
 vnoremap < s<<C-r>-><ESC>
+
+"-----------------------------------------------------------
+" Do NOT wrap lines
+set nowrap
